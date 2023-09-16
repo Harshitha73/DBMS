@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-16T13:09:32.710Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0" etag="DfjIVyrWjxPsyKQAyQLw" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-16T15:42:40.944Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0" etag="cFI4TeHNkxYk3au-iwm0" version="21.7.5" type="github">
   <diagram name="Page-1" id="4lmxz4_UhAwDqjf_9t7a">
-    <mxGraphModel dx="875" dy="1298" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1615" dy="1678" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -154,7 +154,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="PlhTkigInRb4efWKFuLJ-36" value="Blood Donors" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
-          <mxGeometry x="150" y="350" width="180" height="240" as="geometry" />
+          <mxGeometry x="150" y="350" width="180" height="270" as="geometry" />
         </mxCell>
         <mxCell id="PlhTkigInRb4efWKFuLJ-37" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="PlhTkigInRb4efWKFuLJ-36">
           <mxGeometry y="30" width="180" height="30" as="geometry" />
@@ -216,7 +216,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PlhTkigInRb4efWKFuLJ-51" value="Gender (M/F)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="PlhTkigInRb4efWKFuLJ-49">
+        <mxCell id="PlhTkigInRb4efWKFuLJ-51" value="Gender" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="PlhTkigInRb4efWKFuLJ-49">
           <mxGeometry x="30" width="150" height="30" as="geometry">
             <mxRectangle width="150" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -247,6 +247,19 @@
             <mxRectangle width="150" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="PlhTkigInRb4efWKFuLJ-270" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="PlhTkigInRb4efWKFuLJ-36">
+          <mxGeometry y="240" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PlhTkigInRb4efWKFuLJ-271" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="PlhTkigInRb4efWKFuLJ-270">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PlhTkigInRb4efWKFuLJ-272" value="Blood Type + Rh Factor" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="PlhTkigInRb4efWKFuLJ-270">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="PlhTkigInRb4efWKFuLJ-55" value="Blood Classification" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
           <mxGeometry x="459" y="400" width="180" height="90" as="geometry" />
         </mxCell>
@@ -266,7 +279,7 @@
         <mxCell id="PlhTkigInRb4efWKFuLJ-62" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="PlhTkigInRb4efWKFuLJ-55">
           <mxGeometry y="60" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="PlhTkigInRb4efWKFuLJ-63" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="PlhTkigInRb4efWKFuLJ-62">
+        <mxCell id="PlhTkigInRb4efWKFuLJ-63" value="AK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="PlhTkigInRb4efWKFuLJ-62">
           <mxGeometry width="30" height="30" as="geometry">
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -361,7 +374,7 @@
           <mxGeometry x="421" y="464" width="46" height="22" as="geometry" />
         </mxCell>
         <mxCell id="PlhTkigInRb4efWKFuLJ-106" value="Blood Bag" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
-          <mxGeometry x="751" y="630" width="180" height="150" as="geometry" />
+          <mxGeometry x="751" y="630" width="180" height="120" as="geometry" />
         </mxCell>
         <mxCell id="PlhTkigInRb4efWKFuLJ-107" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="PlhTkigInRb4efWKFuLJ-106">
           <mxGeometry y="30" width="180" height="30" as="geometry" />
@@ -398,19 +411,6 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="PlhTkigInRb4efWKFuLJ-115" value="Empty Blood Bags (1..*)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="PlhTkigInRb4efWKFuLJ-113">
-          <mxGeometry x="30" width="150" height="30" as="geometry">
-            <mxRectangle width="150" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="PlhTkigInRb4efWKFuLJ-116" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="PlhTkigInRb4efWKFuLJ-106">
-          <mxGeometry y="120" width="180" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="PlhTkigInRb4efWKFuLJ-117" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="PlhTkigInRb4efWKFuLJ-116">
-          <mxGeometry width="30" height="30" as="geometry">
-            <mxRectangle width="30" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="PlhTkigInRb4efWKFuLJ-118" value="Row 3" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="PlhTkigInRb4efWKFuLJ-116">
           <mxGeometry x="30" width="150" height="30" as="geometry">
             <mxRectangle width="150" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -454,7 +454,7 @@
         <mxCell id="PlhTkigInRb4efWKFuLJ-134" value="1..*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="227" y="327" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="PlhTkigInRb4efWKFuLJ-135" value="1..*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="PlhTkigInRb4efWKFuLJ-135" value="1..1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="24" y="247" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="PlhTkigInRb4efWKFuLJ-136" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="PlhTkigInRb4efWKFuLJ-161">
@@ -540,16 +540,16 @@
         <mxCell id="PlhTkigInRb4efWKFuLJ-163" value="CollectsBlood" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=90;" vertex="1" parent="1">
           <mxGeometry x="91" y="350" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="PlhTkigInRb4efWKFuLJ-165" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="PlhTkigInRb4efWKFuLJ-168">
+        <mxCell id="PlhTkigInRb4efWKFuLJ-165" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="237" y="625" as="sourcePoint" />
-            <mxPoint x="673" y="629" as="targetPoint" />
+            <mxPoint x="473" y="665" as="sourcePoint" />
+            <mxPoint x="676" y="665" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PlhTkigInRb4efWKFuLJ-166" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="673" y="478" as="sourcePoint" />
-            <mxPoint x="673" y="629" as="targetPoint" />
+            <mxPoint x="673" y="668" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PlhTkigInRb4efWKFuLJ-167" value="" style="endArrow=none;html=1;rounded=0;exitX=-0.006;exitY=0.2;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="PlhTkigInRb4efWKFuLJ-153">
@@ -560,27 +560,21 @@
         </mxCell>
         <mxCell id="PlhTkigInRb4efWKFuLJ-169" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" target="PlhTkigInRb4efWKFuLJ-168">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="237" y="625" as="sourcePoint" />
+            <mxPoint x="234" y="663" as="sourcePoint" />
             <mxPoint x="673" y="629" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PlhTkigInRb4efWKFuLJ-168" value="" style="triangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="449" y="613" width="22" height="27" as="geometry" />
+          <mxGeometry x="451" y="649" width="22" height="27" as="geometry" />
         </mxCell>
         <mxCell id="PlhTkigInRb4efWKFuLJ-170" value="Donates&lt;br&gt;(if WaitPeriod&amp;gt;=56)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="396" y="581" width="126" height="30" as="geometry" />
+          <mxGeometry x="394" y="617" width="126" height="30" as="geometry" />
         </mxCell>
         <mxCell id="PlhTkigInRb4efWKFuLJ-171" value="1..*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="708" y="475" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="PlhTkigInRb4efWKFuLJ-175" value="" style="endArrow=none;html=1;rounded=0;entryX=0.478;entryY=0.967;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="PlhTkigInRb4efWKFuLJ-172">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="236" y="625" as="sourcePoint" />
-            <mxPoint x="573" y="562" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="PlhTkigInRb4efWKFuLJ-177" value="1..*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="220" y="590" width="60" height="30" as="geometry" />
+        <mxCell id="PlhTkigInRb4efWKFuLJ-177" value="1..1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="619" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="PlhTkigInRb4efWKFuLJ-178" value="1..*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="96" y="470" width="60" height="30" as="geometry" />
@@ -682,7 +676,7 @@
         <mxCell id="PlhTkigInRb4efWKFuLJ-201" value="1..*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="683" y="18" width="60" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="PlhTkigInRb4efWKFuLJ-203" value="1..*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="PlhTkigInRb4efWKFuLJ-203" value="1..1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="107" y="13" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="PlhTkigInRb4efWKFuLJ-204" value="" style="endArrow=none;html=1;rounded=0;exitX=0.172;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="PlhTkigInRb4efWKFuLJ-36">
@@ -778,7 +772,7 @@
         <mxCell id="PlhTkigInRb4efWKFuLJ-252" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="PlhTkigInRb4efWKFuLJ-248">
           <mxGeometry y="30" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="PlhTkigInRb4efWKFuLJ-253" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="PlhTkigInRb4efWKFuLJ-252">
+        <mxCell id="PlhTkigInRb4efWKFuLJ-253" value="FK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="PlhTkigInRb4efWKFuLJ-252">
           <mxGeometry width="30" height="30" as="geometry">
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -837,6 +831,12 @@
         </mxCell>
         <mxCell id="PlhTkigInRb4efWKFuLJ-269" value="1..1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="814" y="99" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PlhTkigInRb4efWKFuLJ-273" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="234" y="662" as="sourcePoint" />
+            <mxPoint x="237" y="623" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
